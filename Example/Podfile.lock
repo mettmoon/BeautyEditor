@@ -1,0 +1,27 @@
+PODS:
+  - BeautyEditor (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BeautyEditor (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BeautyEditor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeautyEditor: b8bf7b71a2c61d5a92a196b312407a21d337c63a
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 2924545a55f7a1caa2d5ce2a6990e32df8f607ad
+
+COCOAPODS: 1.6.0

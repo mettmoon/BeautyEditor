@@ -1,0 +1,22 @@
+{
+  "name": "BeautyEditor",
+  "version": "0.1.0",
+  "summary": "A short description of BeautyEditor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Peter/BeautyEditor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Peter": "peter.m@kakaocorp.com"
+  },
+  "source": {
+    "git": "https://github.com/Peter/BeautyEditor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BeautyEditor/Classes/**/*"
+}

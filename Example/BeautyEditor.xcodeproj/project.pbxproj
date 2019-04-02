@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2ED77784F29C8B27A656543E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2ED77784F29C8B27A656543E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34093D763F2198256A22006C /* Pods-BeautyEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyEditor_Example.debug.xcconfig"; path = "Target Support Files/Pods-BeautyEditor_Example/Pods-BeautyEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		38FCB461C548E158389C1E59 /* BeautyEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BeautyEditor.podspec; path = ../BeautyEditor.podspec; sourceTree = "<group>"; };
+		38FCB461C548E158389C1E59 /* BeautyEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BeautyEditor.podspec; path = ../BeautyEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		407B7A555F55D69D73AEAE2D /* Pods_BeautyEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* BeautyEditor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyEditor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		B4AD536663D65AC22F7BECA1 /* Pods-BeautyEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyEditor_Example.release.xcconfig"; path = "Target Support Files/Pods-BeautyEditor_Example/Pods-BeautyEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6E4F79ADE03CBEFC9D17C4D /* Pods-BeautyEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyEditor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BeautyEditor_Tests/Pods-BeautyEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D423CF7835CFA7373817B3ED /* Pods-BeautyEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyEditor_Tests.release.xcconfig"; path = "Target Support Files/Pods-BeautyEditor_Tests/Pods-BeautyEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB86CAC8EF05D7706C401A63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB86CAC8EF05D7706C401A63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				C6E4F79ADE03CBEFC9D17C4D /* Pods-BeautyEditor_Tests.debug.xcconfig */,
 				D423CF7835CFA7373817B3ED /* Pods-BeautyEditor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

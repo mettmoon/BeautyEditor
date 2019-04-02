@@ -1,0 +1,6 @@
+framework module BeautyEditor {
+  umbrella header "BeautyEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}
