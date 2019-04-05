@@ -27,7 +27,6 @@
 		992F84FC2BA80C83008338F75AB23D81 /* Pods-BeautyEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131140325F7AD54AF2FB24FD8459F622 /* Pods-BeautyEditor_Example-dummy.m */; };
 		AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B49B1D25C4D94D9E307A0AA025432845 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A201286C6D9950191E96787E49B39 /* ReplaceMe.swift */; };
 		CFA869102744DB995F3AC930E96E3AFF /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */; };
 		D092949D876CF3E8F5AA962352B40DA3 /* BeautyEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F94EA4BBBB227E64C3EBBCAC352FAC /* BeautyEditor-dummy.m */; };
 		D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */; };
@@ -36,6 +35,11 @@
 		DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */; };
 		E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */; };
 		E7F0B09F899DBFE173736F8AE258ED48 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */; };
+		ED4DF20A225345F900A63FE1 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4DF209225345F900A63FE1 /* CropViewController.swift */; };
+		ED4DF20C2253461400A63FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4DF20B2253461400A63FE1 /* Main.storyboard */; };
+		ED4DF267225615D000A63FE1 /* GuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4DF265225615D000A63FE1 /* GuideManager.swift */; };
+		ED4DF268225615D000A63FE1 /* RatioImageCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4DF266225615D000A63FE1 /* RatioImageCVCell.swift */; };
+		ED4DF26A2256D26700A63FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4DF269225617D300A63FE1 /* Assets.xcassets */; };
 		F754A4DC27E2B27E7862C2B9C73266EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
 		F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -77,17 +81,17 @@
 		2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		34812E5B2789A9112CA86BB918305DBF /* Pods-BeautyEditor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeautyEditor_Example-Info.plist"; sourceTree = "<group>"; };
 		38AFFD8C5CF823A0097DA0FF87850393 /* Pods-BeautyEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeautyEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C517900E15B0EE4578BF3E0E98933D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C517900E15B0EE4578BF3E0E98933D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D4583C6F2860D84F46B7A78AE893A24 /* Pods-BeautyEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeautyEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		42F41420AD0C63C2FD6B076AB637DFC3 /* Pods_BeautyEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeautyEditor_Example.framework; path = "Pods-BeautyEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F41420AD0C63C2FD6B076AB637DFC3 /* Pods_BeautyEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		58F94EA4BBBB227E64C3EBBCAC352FAC /* BeautyEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeautyEditor-dummy.m"; sourceTree = "<group>"; };
 		5DA830F696BACD910FDE690EF1E3EDE6 /* Pods-BeautyEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeautyEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5DBFC546667AB42CF1B5332714885A5E /* Pods-BeautyEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeautyEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		603FAFC4ECE64C14E741588B1569E512 /* Pods-BeautyEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeautyEditor_Example-umbrella.h"; sourceTree = "<group>"; };
-		6C09897E4821C3A614ECB41DBE2395F0 /* BeautyEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BeautyEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C09897E4821C3A614ECB41DBE2395F0 /* BeautyEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BeautyEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D7268486641675B1E12DD6EBF7DE4F8 /* BeautyEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeautyEditor.xcconfig; sourceTree = "<group>"; };
 		7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7FAE054587D910C8831AB084FBF78D47 /* Pods-BeautyEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeautyEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -98,30 +102,34 @@
 		93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		9BCEA5316C338C7879019667BA6A0F0A /* Pods-BeautyEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeautyEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00077719BC12947EFA1996792C58854 /* BeautyEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeautyEditor.modulemap; sourceTree = "<group>"; };
 		A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		A4A9D87D849FEFE44FE9F0BAE252F8C1 /* BeautyEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeautyEditor-Info.plist"; sourceTree = "<group>"; };
-		A9DE45086717EE627E73B32CC697E097 /* Pods_BeautyEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeautyEditor_Tests.framework; path = "Pods-BeautyEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DE45086717EE627E73B32CC697E097 /* Pods_BeautyEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A7240D82D170A6EF6A59458F507271 /* Pods-BeautyEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeautyEditor_Example.modulemap"; sourceTree = "<group>"; };
 		B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		C45A201286C6D9950191E96787E49B39 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BeautyEditor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C7EE25655D4A6EB861E1C7B1A41B0D3A /* Pods-BeautyEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeautyEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CD454144051717CCDB9B11993135D3D5 /* Pods-BeautyEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeautyEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CED24DC0CCA072317D15256DBCFB0877 /* Pods-BeautyEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeautyEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		D7E84E38641AB78BBE7F200C51F7F1E6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E84E38641AB78BBE7F200C51F7F1E6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EEE71B304DB12D4CF157CE34E140BF64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ED4DF209225345F900A63FE1 /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = BeautyEditor/Classes/CropViewController.swift; sourceTree = "<group>"; };
+		ED4DF20B2253461400A63FE1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ED4DF265225615D000A63FE1 /* GuideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuideManager.swift; path = BeautyEditor/Classes/GuideManager.swift; sourceTree = "<group>"; };
+		ED4DF266225615D000A63FE1 /* RatioImageCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatioImageCVCell.swift; path = BeautyEditor/Classes/RatioImageCVCell.swift; sourceTree = "<group>"; };
+		ED4DF269225617D300A63FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE71B304DB12D4CF157CE34E140BF64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F2764FBC96A219C962EFD37676491154 /* Pods-BeautyEditor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeautyEditor_Tests-Info.plist"; sourceTree = "<group>"; };
 		F773D42DA648A88AF590F353C6C79678 /* BeautyEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeautyEditor-prefix.pch"; sourceTree = "<group>"; };
-		FCB9D9F2DF38E75830E3BFC59658A471 /* BeautyEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeautyEditor.framework; path = BeautyEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB9D9F2DF38E75830E3BFC59658A471 /* BeautyEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeautyEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,7 +216,11 @@
 		3C0D01470E7FACAB279C823BFAFA2367 /* BeautyEditor */ = {
 			isa = PBXGroup;
 			children = (
-				C45A201286C6D9950191E96787E49B39 /* ReplaceMe.swift */,
+				ED4DF209225345F900A63FE1 /* CropViewController.swift */,
+				ED4DF265225615D000A63FE1 /* GuideManager.swift */,
+				ED4DF269225617D300A63FE1 /* Assets.xcassets */,
+				ED4DF266225615D000A63FE1 /* RatioImageCVCell.swift */,
+				ED4DF20B2253461400A63FE1 /* Main.storyboard */,
 				5D15B6FD76B85B15FAD3FA5A9D208621 /* Pod */,
 				B5ECD934664946047D07C7D3BCDDCA98 /* Support Files */,
 			);
@@ -304,7 +316,6 @@
 				16B8D657ED78864429DA904F420CBF27 /* Support Files */,
 				31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -508,6 +519,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4DF26A2256D26700A63FE1 /* Assets.xcassets in Resources */,
+				ED4DF20C2253461400A63FE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,8 +552,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4DF268225615D000A63FE1 /* RatioImageCVCell.swift in Sources */,
 				D092949D876CF3E8F5AA962352B40DA3 /* BeautyEditor-dummy.m in Sources */,
-				B49B1D25C4D94D9E307A0AA025432845 /* ReplaceMe.swift in Sources */,
+				ED4DF267225615D000A63FE1 /* GuideManager.swift in Sources */,
+				ED4DF20A225345F900A63FE1 /* CropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +672,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -850,7 +865,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -977,8 +992,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

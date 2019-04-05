@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,8 +20,47 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d12-Lc-Di9">
+                                <rect key="frame" x="50" y="233.5" width="275" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="mAM-AW-XQa"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="mfh-sI-XsZ">
+                                <rect key="frame" x="104" y="443.5" width="167" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgn-Ng-dDa">
+                                        <rect key="frame" x="0.0" y="0.0" width="69" height="30"/>
+                                        <state key="normal" title="get image"/>
+                                        <connections>
+                                            <action selector="ibButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HZH-YT-HhU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lt4-j9-rp4">
+                                        <rect key="frame" x="109" y="0.0" width="58" height="30"/>
+                                        <state key="normal" title="edit rect"/>
+                                        <connections>
+                                            <action selector="ibButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EJC-bL-ZuJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d12-Lc-Di9" secondAttribute="trailing" constant="50" id="6RU-M2-rmN"/>
+                            <constraint firstItem="d12-Lc-Di9" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="IeS-0c-RDS"/>
+                            <constraint firstItem="mfh-sI-XsZ" firstAttribute="top" secondItem="d12-Lc-Di9" secondAttribute="bottom" constant="10" id="dLQ-MN-GvW"/>
+                            <constraint firstItem="mfh-sI-XsZ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qEf-oR-dZK"/>
+                            <constraint firstItem="d12-Lc-Di9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="xo9-eZ-Xh0"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="editRectButton" destination="Lt4-j9-rp4" id="elu-Wd-Wlo"/>
+                        <outlet property="getImageButton" destination="qgn-Ng-dDa" id="Kz7-ey-Vfw"/>
+                        <outlet property="imageView" destination="d12-Lc-Di9" id="lQ3-mg-9nN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
