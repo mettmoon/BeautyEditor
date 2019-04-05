@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeautyEditor'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'iOS Photo Editor for Beauty Photos'
 
 # This description is used to generate tags and improve search results.
